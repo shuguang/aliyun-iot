@@ -1,0 +1,39 @@
+{
+    "name": "shuguang/aliyun-iot",
+    "description": "The IOT SDK for Aliyun OpenAPI",
+    "keywords": [
+        "aliyun",
+        "open-api",
+        "php",
+        "iot",
+        "sdk"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/shuguang/aliyun-iot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shuguang",
+            "email": "adm@testd.net",
+            "homepage": "http://testd.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.3.0",
+        "shuguang/aliyun-core": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\Iot\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {}
+    }
+}
